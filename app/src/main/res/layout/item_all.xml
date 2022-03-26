@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_marginHorizontal="28dp"
+    android:layout_height="140dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/img_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_vector_5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="17dp"/>
+        <TextView
+            android:id="@+id/text_country_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintTop_toTopOf="@id/img_country"
+            app:layout_constraintLeft_toRightOf="@id/img_country"
+            android:layout_marginLeft="6dp"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sotib olish"
+            app:layout_constraintTop_toBottomOf="@id/img_country"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.4"
+            app:layout_constraintLeft_toLeftOf="@id/img_country"/>
+
+        <TextView
+            android:id="@+id/all_rv_sold_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 580 UZS"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/text1"
+            app:layout_constraintLeft_toLeftOf="@id/text1"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sotish"
+            app:layout_constraintLeft_toRightOf="@id/text1"
+            app:layout_constraintTop_toTopOf="@id/text1"
+            android:layout_marginLeft="57dp"/>
+
+        <TextView
+            android:id="@+id/all_rv_sold_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13 200 UZS"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/text2"
+            app:layout_constraintLeft_toLeftOf="@id/text2"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rv_calc_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="#F9F9F9"
+            app:layout_constraintTop_toTopOf="@id/text2"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="17dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_vector_5"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

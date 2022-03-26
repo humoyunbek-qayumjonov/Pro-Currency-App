@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/share"
+    android:title="Ulashish"
+    android:icon="@drawable/ic_vector"/>
+    <item
+        android:id="@+id/about"
+        android:title="Dastur haqida"
+        android:icon="@drawable/about"/>
+</menu>

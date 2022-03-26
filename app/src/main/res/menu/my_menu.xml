@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/homeFragment"
+    android:icon="@drawable/home_selector"
+    android:title="Bosh oyna"/>
+    <item
+        android:id="@+id/allFragment"
+        android:icon="@drawable/all_selector"
+        android:title="Barcha valyutalar"/>
+    <item
+        android:id="@+id/calcFragment"
+        android:icon="@drawable/calculator_selecter"
+        android:title="Kalkulyator"/>
+</menu>
